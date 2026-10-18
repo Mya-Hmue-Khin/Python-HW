@@ -15,3 +15,8 @@ print(animals)
 animals.sort(reverse=True)
 print(animals)
 print(f"There are {len(animals)} animals in my list.")
+del animals[0]
+del animals[0]
+del animals[0]
+del animals[0]
+print(animals)
