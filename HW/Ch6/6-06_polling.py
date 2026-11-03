@@ -7,7 +7,7 @@ favorite_languages = {
 
 voting_list = ["jen", "sofia", "sarah", "edward", "catalina", "phil"]
 for names in voting_list:
-    if names in favorite_languages:
+    if names in favorite_languages.keys():
         print(f"Thank you, {names.title()}!")
     else:
         print("you are invited to vote!")
